@@ -8,9 +8,10 @@
 import SwiftUI
 
 struct ContentView: View {
+    @ObservedObject var model = ViewModelWatch()
     var body: some View {
-        Text("Hello, World!")
-            .padding()
+        Text(self.model.messageText)
+        
     }
 }
 
@@ -19,3 +20,4 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+

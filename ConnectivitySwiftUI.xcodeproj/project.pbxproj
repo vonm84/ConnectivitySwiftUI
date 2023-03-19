@@ -27,6 +27,8 @@
 		8477C9E029C74A620084FEA9 /* ConnectivitySwiftUI_WatchKit_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8477C9DF29C74A620084FEA9 /* ConnectivitySwiftUI_WatchKit_AppTests.swift */; };
 		8477C9EA29C74A620084FEA9 /* ConnectivitySwiftUI_WatchKit_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8477C9E929C74A620084FEA9 /* ConnectivitySwiftUI_WatchKit_AppUITests.swift */; };
 		8477C9EC29C74A620084FEA9 /* ConnectivitySwiftUI_WatchKit_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8477C9EB29C74A620084FEA9 /* ConnectivitySwiftUI_WatchKit_AppUITestsLaunchTests.swift */; };
+		8477CA0729C74AC90084FEA9 /* ViewModelPhone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8477CA0629C74AC90084FEA9 /* ViewModelPhone.swift */; };
+		8477CA0929C752010084FEA9 /* ViewModelWatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8477CA0829C752010084FEA9 /* ViewModelWatch.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -127,6 +129,8 @@
 		8477C9E529C74A620084FEA9 /* ConnectivitySwiftUI WatchKit AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ConnectivitySwiftUI WatchKit AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8477C9E929C74A620084FEA9 /* ConnectivitySwiftUI_WatchKit_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectivitySwiftUI_WatchKit_AppUITests.swift; sourceTree = "<group>"; };
 		8477C9EB29C74A620084FEA9 /* ConnectivitySwiftUI_WatchKit_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectivitySwiftUI_WatchKit_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8477CA0629C74AC90084FEA9 /* ViewModelPhone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelPhone.swift; sourceTree = "<group>"; };
+		8477CA0829C752010084FEA9 /* ViewModelWatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelWatch.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -206,6 +210,7 @@
 		8477C99429C74A570084FEA9 /* ConnectivitySwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				8477CA0629C74AC90084FEA9 /* ViewModelPhone.swift */,
 				8477C99529C74A570084FEA9 /* ConnectivitySwiftUIApp.swift */,
 				8477C99729C74A570084FEA9 /* ContentView.swift */,
 				8477C99929C74A5B0084FEA9 /* Assets.xcassets */,
@@ -259,6 +264,7 @@
 				8477C9D529C74A620084FEA9 /* Info.plist */,
 				8477C9D629C74A620084FEA9 /* PushNotificationPayload.apns */,
 				8477C9D229C74A620084FEA9 /* Preview Content */,
+				8477CA0829C752010084FEA9 /* ViewModelWatch.swift */,
 			);
 			path = "ConnectivitySwiftUI WatchKit Extension";
 			sourceTree = "<group>";
@@ -539,6 +545,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8477CA0729C74AC90084FEA9 /* ViewModelPhone.swift in Sources */,
 				8477C99829C74A570084FEA9 /* ContentView.swift in Sources */,
 				8477C99629C74A570084FEA9 /* ConnectivitySwiftUIApp.swift in Sources */,
 			);
@@ -569,6 +576,7 @@
 				8477C9C929C74A5F0084FEA9 /* ContentView.swift in Sources */,
 				8477C9CF29C74A5F0084FEA9 /* ComplicationController.swift in Sources */,
 				8477C9C729C74A5F0084FEA9 /* ConnectivitySwiftUIApp.swift in Sources */,
+				8477CA0929C752010084FEA9 /* ViewModelWatch.swift in Sources */,
 				8477C9CD29C74A5F0084FEA9 /* NotificationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
